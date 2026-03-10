@@ -14,7 +14,7 @@ class Personaje {
         System.out.println(nombre + " atacó a " + enemigo.nombre + " y le quitó " + ataque + " de vida.");
     }
 
-    public void mostrarEstado() {
+    public void mostrarDatos() {
         System.out.println(nombre + " tiene " + vida + " de vida.");
     }
 }
