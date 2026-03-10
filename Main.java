@@ -1,9 +1,13 @@
 public class Main
 {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+        mostrarMensaje();
     }
+
+    public static void mostrarMensaje() {
+        System.out.println("hola, luis y luca");
+    
 }
 
-public class Auto
-    
+
+
