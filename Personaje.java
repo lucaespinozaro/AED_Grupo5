@@ -1,20 +1,21 @@
-class Personaje {
+class Entidad {
+
     String nombre;
-    int vida;
-    int ataque;
+    int salud;
+    int poder;
 
-    public Personaje(String nombre, int vida, int ataque) {
+    public Entidad(String nombre, int salud, int poder) {
         this.nombre = nombre;
-        this.vida = vida;
-        this.ataque = ataque;
+        this.salud = salud;
+        this.poder = poder;
     }
 
-    public void atacar(Personaje enemigo) {
-        enemigo.vida -= this.ataque;
-        System.out.println(nombre + " atacó a " + enemigo.nombre + " y le quitó " + ataque + " de vida.");
+    public void golpear(Entidad rival) {
+        rival.salud = rival.salud - this.poder;
+        System.out.println(nombre + " golpeó a " + rival.nombre + " y le quitó " + poder + " puntos de salud.");
     }
 
-    public void mostrarDatos() {
-        System.out.println(nombre + " tiene " + vida + " de vida.");
+    public void verEstado() {
+        System.out.println("Estado de " + nombre + ": " + salud + " puntos de salud.");
     }
 }
