@@ -4,3 +4,6 @@ public class Main
         System.out.println("Hola mundo");
     }
 }
+
+public class Auto
+    
