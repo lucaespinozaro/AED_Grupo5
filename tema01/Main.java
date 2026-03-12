@@ -27,6 +27,9 @@ public class Main{
     c2 = new Coordenada(x2, y2);
 
     Rectangulo r2 = new Rectangulo(c1, c2);
+
+    System.out.print("Ingrese una opcion \n1. Sobrepuesto ");
+
     
   }
 }
