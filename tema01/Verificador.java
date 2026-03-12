@@ -2,7 +2,7 @@ public class Verificador {
 public static boolean esSobrePos(Rectangulo r1, Rectangulo r2) {
         boolean shrz = (r1.getEsquina2().getX() < r2.getEsquina2().getX()) || (r1.getEsquina1().getX() > r2.getEsquina2().getX());
         boolean sver = (r1.getEsquina2().getY() < r2.getEsquina1().getY()) || (r1.getEsquina1().getY() > r2.getEsquina2().getY());
-        if (!shr && !sver) {
+        if (!shrz && !sver) {
             return true;
         } else {
             return false;
