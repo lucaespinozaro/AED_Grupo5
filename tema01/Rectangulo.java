@@ -3,7 +3,6 @@ public class Rectangulo{
   private Coordenada esquina1;
   private Coordenada esquina2;
 
-  // Constructor
   public Rectangulo(Coordenada c1, Coordenada c2) {
     this.esquina1 = new Coordenada(c1.getX(), c1.getY());
     this.esquina2 = new Coordenada(c2.getX(), c2.getY());
